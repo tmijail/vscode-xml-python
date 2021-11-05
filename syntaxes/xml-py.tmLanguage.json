@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"scopeName": "python-cdata.injection",
+	"name": "XML with embedded Python",
+	"injectionSelector": "L:text.xml",
+	"patterns": [
+		{
+			"include": "#cdata"
+		}
+	],
+	"repository": {
+		"cdata": {
+			"patterns": [{
+				"name": "meta.embedded.cdata.whole",
+				"contentName": "meta.embedded.cdata.python",
+				"begin": "<!\\[CDATA\\[",
+				"end": "]]>",
+				"patterns": [
+					{
+						"include": "source.python"
+					}
+				]
+			}]
+		}
+	}
+}
