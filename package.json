@@ -3,6 +3,7 @@
     "displayName": "XML with embedded Python",
     "description": "Python syntax highlighting on XML CDATA fields",
     "version": "0.0.1",
+    "repository": "https://github.com/tmijail/vscode-xml-python.git",
     "engines": {
         "vscode": "^1.62.0"
     },
