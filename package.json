@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "repository": "https://github.com/tmijail/vscode-xml-python.git",
     "engines": {
-        "vscode": "^1.62.0"
+        "vscode": "^1.60.0"
     },
     "categories": [
         "Programming Languages"
