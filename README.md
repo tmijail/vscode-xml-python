@@ -1,6 +1,6 @@
 # xml-python README
 
-Provides syntax highlighting for python code between `<![CDATA[` and `]]>`
+Provides syntax highlighting for python code embedded in xml between `<![CDATA[` and `]]>`
 
 ## Features
 
